@@ -3,7 +3,7 @@
 1. Add this bundle to your project:
 
 ```
-[BootstrapBundle]
+[ContactBundle]
     git=http://github.com/yoye/ContactBundle.git
     target=/bundles/Yoye/Bundle/ContactBundle
 
