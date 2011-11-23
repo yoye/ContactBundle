@@ -27,7 +27,7 @@ class DefaultController extends Controller
                         'name' => $data->name,
                         'email' => $data->email,
                         'message' => $data->message,
-                    )))
+                    )), 'text/html')
                 ;
                 
                 $this->get('mailer')->send($message);
