@@ -1,0 +1,9 @@
+<form action="{{ path('yoye_contact.homepage') }}" method="post">
+    {{ form_row(form.name) }}
+    {{ form_row(form.email) }}
+    {{ form_row(form.message) }}
+    
+    {{ form_rest(form) }}
+    
+    <input type="submit" />
+</form>
